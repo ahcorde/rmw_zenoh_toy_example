@@ -336,13 +336,13 @@
         /// Id has to be unique within the subjects list
         "id": "router",
         /// Subjects can be cert_common_names when using TLS or Quic
-        "cert_common_names": [ "zenohd" ],
+        // "cert_common_names": [ "zenohd" ],
       },
       {
         /// Id has to be unique within the subjects list
         "id": "listener",
         /// Subjects can be cert_common_names when using TLS or Quic
-        "cert_common_names": [ "router", "listener" ],
+        // "cert_common_names": [ "router", "listener" ],
       },
     ],
     /// The policies list associates rules to subjects
@@ -518,7 +518,7 @@
         /// Path to the TLS listening side private key
         listen_private_key: "",
         /// Path to the TLS listening side public certificate
-        listen_certificate:  ",
+        listen_certificate:  "",
         ///  Enables mTLS (mutual authentication), client authentication
         enable_mtls: true,
         /// Path to the TLS connecting side private key

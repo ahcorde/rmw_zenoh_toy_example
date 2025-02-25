@@ -336,13 +336,13 @@
         /// Id has to be unique within the subjects list
         "id": "router",
         /// Subjects can be cert_common_names when using TLS or Quic
-        "cert_common_names": [ "zenohd" ],
+        // "cert_common_names": [ "zenohd" ],
       },
       {
         /// Id has to be unique within the subjects list
         "id": "talker",
         /// Subjects can be cert_common_names when using TLS or Quic
-        "cert_common_names": [ "talker" ],
+        // "cert_common_names": [ "talker" ],
       },
     ],
     /// The policies list associates rules to subjects

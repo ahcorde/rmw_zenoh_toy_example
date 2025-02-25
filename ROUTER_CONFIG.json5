@@ -268,19 +268,19 @@
         /// Id has to be unique within the subjects list
         "id": "router",
         /// Subjects can be cert_common_names when using TLS or Quic
-        "cert_common_names": [ "zenohd" ],
+        // "cert_common_names": [ "zenohd" ],
       },
       {
         /// Id has to be unique within the subjects list
         "id": "talker",
         /// Subjects can be cert_common_names when using TLS or Quic
-        "cert_common_names": [ "talker" ],
+        // "cert_common_names": [ "talker" ],
       },
       {
         /// Id has to be unique within the subjects list
         "id": "listener",
         /// Subjects can be cert_common_names when using TLS or Quic
-        "cert_common_names": [ "listener" ],
+        // "cert_common_names": [ "listener" ],
       },
     ],
     /// The policies list associates rules to subjects
@@ -289,7 +289,7 @@
       /// Each policy associates one or multiple rules to one or multiple subject combinations
       {
         "rules": [ "liveliness_tokens"],
-        "subjects": ["router", "talker", "listener"]
+        "subjects": ["router"]
       }
     ]
   },
